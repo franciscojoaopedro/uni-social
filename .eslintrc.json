@@ -4,9 +4,10 @@
         "es2021": true
     },
     "extends": [
-        "plugin:react/recommended",
         "standard",
-        "plugin:react/jsx-runtime"
+        "plugin:react/recommended",
+        "plugin:react/jsx-runtime",
+        "plugin:prettier/recommended"
     ],
     "overrides": [
     ],
@@ -18,5 +19,6 @@
         "react"
     ],
     "rules": {
+      "prettier/prettier": "error"
     }
 }
