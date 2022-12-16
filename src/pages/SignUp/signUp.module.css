@@ -1,0 +1,51 @@
+.SignUp{
+    width: 100%;
+
+  
+}
+.SignUp img{
+    position: absolute;
+    width: 100%;
+   z-index: -2;
+}
+
+.container{
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.inputs{
+    width: 100%;
+    max-width: 612px;
+}
+.inputsNames{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.outroInputs{
+    width: 100%;
+}
+.input{
+    width: 100%;
+}
