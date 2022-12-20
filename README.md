@@ -91,7 +91,7 @@ $ cd uni-social
 $ npm install
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm start
+$ npm run dev
 
 # O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 ```
