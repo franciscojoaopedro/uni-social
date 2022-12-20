@@ -1,0 +1,28 @@
+.Header {
+    background: #ffe4c4;
+    width: 100%;
+}
+.Header nav {
+    padding: 15px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-text {
+    width: 100%;
+}
+
+.link-login {
+    width: 100%;
+    padding: 15px 30px;
+}
+
+.link-login a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+    padding: 15px 76px;
+    background: #ffc745;
+    border-radius: 4px;
+}

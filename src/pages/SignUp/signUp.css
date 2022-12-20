@@ -1,0 +1,74 @@
+.singup {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.singup section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s-image {
+    width: 100%;
+}
+.s-image img {
+    width: 100%;
+    max-width: 500px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-registrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-registrar {
+    box-shadow: 4px 4px 4px 4px #000;
+    border-radius: 4px;
+    padding: 50px 15px;
+    margin: 50px 15px;
+}
+
+.inputs {
+    width: 100%;
+    height: 42px;
+}
+.inputs input {
+    width: 100%;
+    outline: none;
+    margin: 15px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.input-nomes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.input-email-processo-password {
+    width: 100%;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-registrar {
+    padding: 15px 50px;
+    background: #f2b705;
+    border: none;
+    font-weight: 700;
+    border-radius: 4px;
+}

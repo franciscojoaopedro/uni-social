@@ -1,111 +1,51 @@
-import styles from "./signUp.module.css"
-
+import './signUp.css';
+import { Header } from '../../components/Header';
 const SignUp = () => {
     return (
-        <div className={
-            styles.SignUp
-        }>
-            <img src="../../../public/fundo@2x.svg" alt=""/>
-            <div className={
-                styles.container
-            }>
-               <div className={styles.content} >
-
-               <div className={
-                    styles.box
-                }>
-                    <div className={
-                        styles.text
-                    }>
-                        <h2>Registar</h2>
-                        <h4>Escresve-te para ficar a par das informações da unibelas</h4>
+        <main className="singup">
+            <Header />
+            <section className="s-singup">
+                <div className="content">
+                    <div className="s-image">
+                        <img src="../../../public/fundo@2x.svg" alt="" />
                     </div>
 
-
-                    <div className={
-                        styles.inputs
-                    }>
-                        <div className={
-                            styles.inputsNames
-                        }>
-                            <div className={
-                                styles.input
-                            }>
-                                <input name="name" placeholder="Primeiro nome" required
-                                    type={"text"}/>
+                    <form className="form-registrar">
+                        <div className="input-nomes">
+                            <div className="inputs">
+                                <input
+                                    type="text"
+                                    placeholder="Primeiro nome"
+                                />
                             </div>
-                            <div className={
-                                styles.input
-                            }>
-                                <input name="ultimoNome" placeholder="Ultimo nome" required
-                                    type={"text"}/>
+
+                            <div className="inputs">
+                                <input type="text" placeholder="Ultimo nome" />
                             </div>
                         </div>
 
-                        <div className={
-                            styles.outroInputs
-                        }>
-                            <div className={
-                                styles.input
-                            }>
-                                <input name="Processo" placeholder="Nº Processo"
-                                    type={"number"}
-                                    required/>
+                        <div className="input-email-processo-password">
+                            <div className="inputs">
+                                <input
+                                    type="number"
+                                    placeholder="Nº Processo"
+                                />
                             </div>
-
-                            <div className={
-                                styles.input
-                            }>
-                                <input name="Email" placeholder="Email"
-                                    type={"email"}/>
+                            <div className="inputs">
+                                <input type="email" placeholder="Email" />
                             </div>
-
-                            <div className={
-                                styles.input
-                            }>
-                                <input name="Password" placeholder="Password"
-                                    type={"password"}
-                                    required/>
-                            </div>
-
-                            <div className={
-                                styles.btn
-                            }>
-                                <button className={
-                                    styles.btnRegistrar
-                                }>Registar</button>
+                            <div className="inputs">
+                                <input type="password" placeholder="Password" />
                             </div>
                         </div>
-
-                    </div>
-
-                        <div className={
-                            styles.dicas
-                        }>
-                            <h3>Já tens uma  conta?</h3>
-                            <a href="#">Clique agora</a>
-
-                      ~
-                      
+                        <div className="btns">
+                            <button className="btn-registrar">Registrar</button>
                         </div>
+                    </form>
                 </div>
+            </section>
+        </main>
+    );
+};
 
-               </div>
-            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-        </div>
-    )
-}
-
-export default SignUp
+export default SignUp;
