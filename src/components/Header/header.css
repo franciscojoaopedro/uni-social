@@ -7,14 +7,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .logo-text {
-    width: 100%;
+    background: #ffc745;
+    padding: 0 15px;
+    border-radius: 8px;
+}
+.logo-text h2 {
+    color: #fff;
+    font-weight: 200;
 }
 
 .link-login {
-    width: 100%;
     padding: 15px 30px;
 }
 
